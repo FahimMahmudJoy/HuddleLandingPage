@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    /* border: 2px solid blueviolet */
+}
+
+main {
+    /* border: 2px solid blue; */
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    color: hsl(208, 11%, 55%);
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-color: hsl(193, 100%, 96%);
+    /* border: 2px solid purple; */
+    padding: 2em;
+}
+
+.logo-div {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 2.5em; */
+    /* border: 2px solid red; */
+    margin-top: 2em;
+}
+
+.intro-text {
+    /* border: 2px solid red; */
+    width: 30%;
+    align-self: center;
+}
+
+.mockup {
+    width: 50%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 2px 10px 1px hsl(193, 15%, 88%);
+    width: 70%;
+    margin: 1em;
+    border-radius: 10px;
+    padding: 3.5em;
+}
+
+.card-flowing-conversation {
+    flex-direction: row-reverse;
+}
+
+.card-text {
+    width: 40%;
+    /* border: 2px solid blue; */
+    margin: 2em;
+}
+
+.card-img {
+    width: 30%;
+    /* border: 2px solid red; */
+}
+
+.card-ready {
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    min-height: 200px;
+    background-color: white;
+    margin-bottom: -4em;
+    box-shadow: 2px 2px 10px 1px gray;
+    border-radius: 20px;
+}
+
+.btn {
+    border: none;
+    border-radius: 2.5em;
+    padding: 1em 4.25em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-try-free {
+    padding: 1em 4em;
+    background-color: white;
+    box-shadow: 2px 2px 10px 1px hsl(193, 15%, 88%);
+}
+
+.btn-started-free {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 700;
+    margin-top: 2em;
+}
+
+.btn-started-free:hover,
+.btn-started-free:focus {
+    cursor: pointer;
+    background-color: hsla(322, 74%, 67%, 0.767);
+}
+
+.btn-try-free:hover,
+.btn-try-free:focus {
+    color: hsl(195, 4%, 62%);
+    box-shadow: 5px 5px 10px 1px hsl(193, 15%, 88%);
+}
+
+footer {
+    display: flex;
+    /* width: 100%; */
+    flex-direction: column;
+    /* border: 5px solid brown; */
+    /* margin: 1em; */
+    padding-top: 8em;
+    padding-bottom: 5em;
+    padding-left: 4em;
+    padding-right: 4em;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
+
+.last-section-container {
+    width: 80%;
+    align-self: center;
+    border: 3px solid black;
+}
+
+.first-logo {
+    /* border: 2px solid yellow; */
+    margin-left: 5em;
+}
+
+
+.info {
+    display: flex;
+    /* border: 2px solid yellow; */
+}
+
+li {
+    list-style-type: none;
+    margin: 1.5em 0;
+}
+
+.last-logo-container {
+    /* background-color: white; */
+    display: flex;
+    margin-left: 2em;
+}
+
+.last-logo {
+    width: 15%;
+    /* border: 2px solid red; */
+    /* background-color: white; */
+    mix-blend-mode: multiply;
+    color: white;
+}
+
+ul {
+     width: 30%;
+     /* border: 2px solid blue; */
+     margin: 0.25em;
+}
+
+footer {
+    /* text-align: right; */
+}
+
+.ul-1,
+.ul-2,
+.ul-3 {
+    /* border: 2px solid black; */
+    padding-left: 3em;
+}
+
+.copyright {
+    /* text-align: right; */
+    align-self: flex-end;
+}
+
+.fa {
+    /* border: 1px solid white;
+    border-radius: 50%; */
+    /* width: 20px;
+    display: inline; */
+    margin: 1em;
+}
+
+.twitter-fb-logo {
+    display: flex;
+    /* border: 2px solid black; */
+    /* width: 5%; */
+    justify-content: flex-start;
+}
