@@ -194,6 +194,10 @@ li {
         font-size: 14px;
     }
 
+    .first-logo {
+        width: 8rem;
+    }
+
     .card {
         flex-direction: column-reverse;
         align-items: center;
